@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 }
 body {
+	overflow: hidden;
 	background: radial-gradient(circle at 50% -20.71%, #ffff99 0, #ffff7d 16.67%, #ffff5f 33.33%, #f2f23c 50%, #cfe503 66.67%, #abd800 83.33%, #85cd00 100%);
 }
 .container {
@@ -18,14 +19,14 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	gap: 10px;
+	gap: 15px;
 	padding: 15px;
 	border-radius: 20px;
 	box-shadow: 0px 0px 20px rgba(255, 127, 80, 0.883);
 }
 .cards__item {
-	width: calc(25% - 10px);
-	height: calc(25% - 10px);
+	width: calc(25% - 15px);
+	height: calc(25% - 15px);
 	position: relative;
 	transform-style: preserve-3d;
 	background-color: #e6967949;
@@ -63,5 +64,13 @@ body {
 	.container {
 		margin-top: 150px;
 		height: 60%;
+	}
+	.cards {
+		gap: 10px;
+	}
+	.cards__item {
+		border-radius: 10px;
+		width: calc(25% - 10px);
+		height: calc(25% - 10px);
 	}
 }
