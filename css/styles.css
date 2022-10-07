@@ -3,7 +3,7 @@
 }
 body {
 	overflow: hidden;
-	background: radial-gradient(circle at 50% -20.71%, #ffff99 0, #ffff7d 16.67%, #ffff5f 33.33%, #f2f23c 50%, #cfe503 66.67%, #abd800 83.33%, #85cd00 100%);
+	background: linear-gradient(90deg, #aea4e3, #d3ffe8);
 }
 .container {
 	max-width: 100vh;
