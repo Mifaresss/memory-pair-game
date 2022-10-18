@@ -54,7 +54,7 @@ body {
 .switcher-theme__input:checked ~ .switcher-theme__description {
 	color: #bcbbbb;
 }
-.change-background {
+.dark-theme {
 	background: linear-gradient(90deg, #2f2b41, #263d31);
 }
 
