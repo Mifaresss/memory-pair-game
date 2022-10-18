@@ -1,3 +1,15 @@
+const buttonSwitch = document.querySelector('.switcher-theme__input');
+buttonSwitch.addEventListener('click', toggleClass);
+
+function toggleClass({currentTarget}) {
+	const inputStatus = currentTarget.checked;
+	if (inputStatus) {
+		document.body.classList.add('change-background');
+	} else {
+		document.body.classList.remove('change-background');
+	}
+}
+
 const cards = document.querySelectorAll('.cards__item');
 
 let hasFlippedCards = false;
