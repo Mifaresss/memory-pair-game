@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: Roboto, sans-serif;
+	font-family: system-ui;
 	margin: 0;
 	background: linear-gradient(90deg, #aea4e3, #d3ffe8);
 }
